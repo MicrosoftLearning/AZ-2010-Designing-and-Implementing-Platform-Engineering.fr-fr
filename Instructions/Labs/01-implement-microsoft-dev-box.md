@@ -127,7 +127,7 @@ Dans cette tâche, vous allez créer une définition de dev box. Son objectif es
    | ------------------ | ------------------------------------------------------------------------------------ | ----------------------- |
    | Nom               | **devbox-definition-01**                                                             |
    | Image              | \*\*Visual Studio 2022 Enterprise sur Windows 11 Entreprise + Applications Microsoft 365 24H2 | Prise en charge de la mise en veille prolongée\*\* |
-   | Version de l’image      | **La plus récente**                                                                           |
+   | Version d’image      | **La plus récente**                                                                           |
    | Compute            | **8 processeurs virtuels, 32 Go de RAM**                                                                |
    | Stockage            | **SSD de 256 Go**                                                                       |
    | Activer la mise en veille prolongée | Activé(e)                                                                              |
@@ -186,7 +186,7 @@ Dans cette tâche, vous allez créer un pool de dev box dans le projet du centre
    | Définition                                                                                                        | **devbox-definition-01**                 |
    | Connexion réseau                                                                                                | **Déployer sur un réseau hébergé par Microsoft** |
    | Région                                                                                                            | **(États-Unis) USA Est**                         |
-   | Activer l’authentification unique                                                                                             | Activé(e)                                  |
+   | Activer l'authentification unique                                                                                             | Activé(e)                                  |
    | Privilèges de créateur de dev box                                                                                        | **Administrateur local**                  |
    | Activer l’arrêt automatique selon la planification                                                                                      | Activé(e)                                  |
    | Heure d’arrêt                                                                                                         | **19 h**                             |
@@ -651,7 +651,7 @@ Dans cette tâche, vous allez utiliser les définitions d’images nouvellement 
    | Stockage                                                                                                           | **SSD de 256 Go**                                        |
    | Connexion réseau                                                                                                | **Déployer sur une connexion réseau dans mon organisation** |
    | Nom de la connexion réseau                                                                                           | **network-connection-vnet-01**                        |
-   | Activer l’authentification unique                                                                                             | Activé(e)                                               |
+   | Activer l'authentification unique                                                                                             | Activé(e)                                               |
    | Privilèges de créateur de dev box                                                                                        | **Administrateur local**                               |
    | Activer l’arrêt automatique selon la planification                                                                                      | Activé(e)                                               |
    | Heure d’arrêt                                                                                                         | **19 h**                                          |
