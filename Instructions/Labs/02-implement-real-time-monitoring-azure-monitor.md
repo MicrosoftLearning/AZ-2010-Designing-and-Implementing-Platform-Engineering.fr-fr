@@ -31,7 +31,7 @@ En tant qu’ingénieur de plateforme, vous devez vous assurer que les applicati
 1. Ouvrez le portail Azure.
 1. Dans la barre de recherche, tapez App Services et sélectionnez ce choix.
 1. Cliquez sur +Créer, puis sélectionnez Application web.
-1. Sous l’onglet Informations de base :
+1. Sous l’onglet Général :
    - Abonnement: Sélectionnez votre abonnement Azure.
    - Groupe de ressources : cliquez sur Créer, entrez **`monitoringlab-rg`**, puis cliquez sur OK.
    - Nom : entrez un nom unique, par exemple **`monitoringlab-webapp`**.
