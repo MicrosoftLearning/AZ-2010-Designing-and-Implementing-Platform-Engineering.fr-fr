@@ -455,7 +455,7 @@ Dans cette tâche, vous allez utiliser Azure Image Builder pour créer une image
          "properties": {
            "buildTimeoutInMinutes": 100,
            "vmProfile": {
-             "vmSize": "Standard_DS2_v2",
+             "vmSize": "Standard_D2s_v3",
              "osDiskSizeGB": 127
            },
            "source": {
@@ -607,6 +607,17 @@ Pour configurer l’imagerie pour les personnalisations de l’équipe Microsoft
 1. Dans la page **Catalogues devcenter-project-01 \|**, sélectionnez **+Ajouter**.
 1. Dans le volet Ajouter un **catalogue**, dans la zone de texte **Nom**, entrez **`image-definitions-01`**. Dans la section **Source du catalogue**, sélectionnez **GitHub**. Dans le **type d’authentification**, sélectionnez l’**application GitHub**, laissez la case à cocher **Synchroniser automatiquement ce catalogue** activée, puis sélectionnez **Se connecter avec GitHub**.
 1. Si vous y êtes invité, dans la fenêtre **Se connecter avec GitHub**, entrez vos informations d’identification GitHub et sélectionnez **Se connecter**.
+1. Si vous voyez un message indiquant « Nous n’avons pas trouvé de référentiels GitHub associés au compte » avec un lien pour **configurer vos référentiels**, cela se produit généralement lors de la première installation ou si l’application GitHub n’a pas été configurée précédemment. Suivez les étapes supplémentaires suivantes pour configurer l'application GitHub Microsoft DevCenter :
+
+   1. Sélectionnez le lien **Configurer vos référentiels**. Cela ouvre un nouvel onglet ou une nouvelle fenêtre de navigateur dirigé vers GitHub.
+   1. Dans la page **Installer Microsoft DevCenter GitHub**, vous serez invité à installer l’application sur votre compte personnel.
+   1. Dans la section **Installer sur votre compte personnel**, choisissez l’une des options suivantes :
+      - Sélectionnez **Tous les référentiels** pour accorder l’accès à tous les référentiels actuels et futurs dans votre compte.
+      - Sélectionnez **Sélectionner uniquement les référentiels** pour choisir des référentiels spécifiques. Avant de continuer, vérifiez que vous avez dépliqué le référentiel **contoso-co-eShop** sur votre compte GitHub. Si vous choisissez cette option, utilisez la liste déroulante **Sélectionner des référentiels** pour sélectionner le référentiel **contoso-co-eShop** (ou tout autre référentiel que vous souhaitez rendre disponible pour Azure DevCenter).
+   1. Passez en revue les autorisations qui seront accordées sous **cette section d’autorisations** , qui inclut généralement « Accès en lecture au code et aux métadonnées ».
+   1. Sélectionnez **Installer** pour terminer l’installation de l’application GitHub.
+   1. Vous serez redirigé vers le portail Azure. Si la redirection ne se fait pas automatiquement, fermez l'onglet GitHub et revenez au portail Azure.
+   1. De retour dans la Portail Azure, dans la page **Ajouter un catalogue**, sélectionnez **Actualiser** ou actualiser la page pour recharger la liste des référentiels.
 
    > **Note :** vous devez dupliquer le référentiel https://github.com/MicrosoftLearning/contoso-co-eShop sur votre compte GitHub avant de pouvoir effectuer cette étape.
 

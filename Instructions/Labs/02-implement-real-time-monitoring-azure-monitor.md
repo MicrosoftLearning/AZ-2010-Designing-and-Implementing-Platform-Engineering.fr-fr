@@ -49,6 +49,8 @@ En tant qu’ingénieur de plateforme, vous devez vous assurer que les applicati
 1. Application Insights est déjà activé pour cette application web. Cliquez sur le lien pour ouvrir la ressource Application Insights.
 1. Dans la ressource Application Insights, cliquez dans le tableau de bord d’application pour afficher les données de performances fournies par le tableau de bord par défaut.
 
+   > **Remarque :** Le tableau de bord peut prendre quelques instants pour charger et afficher entièrement toutes les données de performances. Attendez que le tableau de bord s’affiche complètement avant de continuer pour garantir une expérience optimale dans les exercices suivants.
+
 ## Exercice 2 : configurer Azure Monitor et les tableaux de bord
 
 ### Tâche 1 : accéder à Azure Monitor
@@ -66,10 +68,18 @@ En tant qu’ingénieur de plateforme, vous devez vous assurer que les applicati
 1. Répétez la procédure pour les métriques supplémentaires.
    - Temps processeur (nombre)
    - Demandes (moyenne)
-1. Cliquez sur le tableau de bord et épinglez-le.
-1. Sélectionnez Type Partagé et sélectionnez l’abonnement et le tableau de bord monitoringlab-webapp.
-1. Cliquez sur Épingler au tableau de bord.
-1. Cliquez sur l’icône du tableau de bord dans le volet gauche pour afficher le tableau de bord.
+1. Dans la zone du graphique de métriques, cliquez sur le bouton **Épingler au tableau de bord** (icône épingler) dans le coin supérieur droit du graphique.
+1. Dans la boîte de dialogue **Épingler au tableau de bord** qui s’affiche :
+   - Sélectionnez **Nouveau** pour créer un nouveau tableau de bord
+   - Entrez un nom pour le tableau de bord : **`MonitoringLab Dashboard`**
+   - Sélectionnez l’abonnement approprié
+   - Choisissez le type de tableau de bord :
+     - **Public** : Le tableau de bord sera visible pour tous les utilisateurs de l’organisation. Cela convient aux scénarios où la visibilité partagée est requise.
+     - **Privé** : Le tableau de bord ne sera visible que pour vous. Cela est recommandé pour les exercices de laboratoire ou les scénarios où la visibilité des données doit être limitée.
+   - Sélectionnez **Créer et épingler**
+1. Une fois le tableau de bord créé et les métriques épinglées, cliquez sur **Enregistrer** dans le menu supérieur pour enregistrer le tableau de bord.
+1. Accédez au tableau de bord en cliquant sur l’icône **Tableau de bord** dans le volet gauche du Portail Azure, ou recherchez « Tableau de bord » dans la barre de recherche supérieure.
+1. Sélectionnez votre **tableau de bord MonitoringLab** nouvellement créé dans la liste des tableaux de bord.
 1. Vérifiez que les métriques sont affichées sur le tableau de bord et mises à jour en temps réel.
 
 ## Exercice 3 : créer des alertes
