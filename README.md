@@ -1,3 +1,7 @@
+> ⚠️ **Remarque**  
+> Ce référentiel sera **archivé le 14 novembre 2025**.  
+> Le nouveau référentiel pour les labos DevOps est disponible ici : [MicrosoftLearning/mslearn-devops](https://github.com/MicrosoftLearning/mslearn-devops)
+
 # Exercices de labo Microsoft
 <!-- Change the title above as appropriate -->
 
